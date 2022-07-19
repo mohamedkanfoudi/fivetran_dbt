@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: google_play_google_play
+  - name: GOOGLE_PLAY_google_play
     tables:
       - name: MY_FIRST_DBT_MODEL
       - name: FIVETRAN_AUDIT
