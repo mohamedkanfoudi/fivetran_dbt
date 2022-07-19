@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: GOOGLE_PLAY
+  - name: google_play
     tables:
       - name: MY_FIRST_DBT_MODEL
       - name: FIVETRAN_AUDIT
@@ -12,7 +12,7 @@ sources:
       - name: STATS_RATINGS_APP_VERSION
       - name: STATS_INSTALLS_OVERVIEW
       - name: STATS_RATINGS_COUNTRY
-      - name: REVIEWS
+      - name: reviews
       - name: STATS_STORE_PERFORMANCE_TRAFFIC_SOURCE
       - name: STATS_STORE_PERFORMANCE_COUNTRY
       - name: STATS_RATINGS_LANGUAGE
