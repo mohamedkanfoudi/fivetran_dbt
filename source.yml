@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: google_play
+    tables:
+      - name: MY_FIRST_DBT_MODEL
+      - name: FIVETRAN_AUDIT
+      - name: STATS_CRASHES_APP_VERSION
+      - name: STATS_CRASHES_OVERVIEW
+      - name: STATS_RATINGS_OVERVIEW
+      - name: STATS_RATINGS_CARRIER
+      - name: STATS_RATINGS_APP_VERSION
+      - name: STATS_INSTALLS_OVERVIEW
+      - name: STATS_RATINGS_COUNTRY
+      - name: REVIEWS
+      - name: STATS_STORE_PERFORMANCE_TRAFFIC_SOURCE
+      - name: STATS_STORE_PERFORMANCE_COUNTRY
+      - name: STATS_RATINGS_LANGUAGE
+      - name: STATS_INSTALLS_APP_VERSION
+      - name: STATS_CRASHES_OS_VERSION
+      - name: STATS_INSTALLS_OS_VERSION
+      - name: STATS_CRASHES_DEVICE
+      - name: STATS_INSTALLS_LANGUAGE
+      - name: STATS_RATINGS_OS_VERSION
+      - name: STATS_INSTALLS_DEVICE
+      - name: STATS_INSTALLS_COUNTRY
+      - name: STATS_RATINGS_DEVICE
+      - name: STATS_INSTALLS_CARRIER
+
+ 
