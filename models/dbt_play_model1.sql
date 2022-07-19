@@ -1,1 +1,1 @@
-select * from {{ source('google_play', 'REVIEWS') }}
+select * from {{ source('GOOGLE_PLAY', 'REVIEWS') }}
