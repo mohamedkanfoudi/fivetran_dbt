@@ -31,3 +31,9 @@ jobs:
    steps:
      - name: version
        command: dbt --version
+
+ - name: every1minutes
+   schedule: '*/1 * * * *' # The example will run every 5 minutes. Note that the cron string is quoted as otherwise it will be treated as invalid alias node (see https://yaml.org/spec/1.2/spec.html#*%20alias// for details)
+   steps:
+     - name: run models
+       command: dbt run
