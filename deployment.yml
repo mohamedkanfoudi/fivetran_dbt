@@ -18,7 +18,9 @@ jobs:
    schedule: 0 0 * * * # This example will run every day at midnight.
    steps:
      - name: run models
-       command: dbt run --models my_first_model my_second_model # This example will run two specific models.
+       command: dbt run 
+       # --models my_first_model my_second_model 
+       # This example will run two specific models.
 
  - name: weekdays
    schedule: 30 7 * * 1-5 # The example will run every weekday at 7:30am.
@@ -36,10 +38,10 @@ jobs:
    schedule: '*/1 * * * *' # The example will run every 5 minutes. Note that the cron string is quoted as otherwise it will be treated as invalid alias node (see https://yaml.org/spec/1.2/spec.html#*%20alias// for details)
    steps:
      - name: run models
-       command: dbt run
+       command: dbt --version
 
  - name: transformer1
    schedule: '*/1 * * * *' # The example will run every 5 minutes. Note that the cron string is quoted as otherwise it will be treated as invalid alias node (see https://yaml.org/spec/1.2/spec.html#*%20alias// for details)
    steps:
      - name: run models 
-       command: dbt run --models transformation_dbt_1
+       command: dbt --version
